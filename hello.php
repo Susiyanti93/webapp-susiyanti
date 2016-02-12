@@ -3,6 +3,7 @@
 	<title>Web App Sederhana</title>
 </head>
 <?php 
+include("connect.php");
 if (!empty($_POST)) {
 			# code...
 	$nama = $_POST['nama'];
